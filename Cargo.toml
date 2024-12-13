@@ -1,0 +1,16 @@
+[package]
+name = "fraud_analysis"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.2"
+serde = { version = "1.0", features = ["derive"] }
+petgraph = "0.6"
+linfa = "0.7"
+linfa-logistic = "0.7"
+ndarray = "0.15"
+rand = "0.8"
+
+[dev-dependencies]
+tempfile = "3.3"
